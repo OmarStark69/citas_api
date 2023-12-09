@@ -17,31 +17,33 @@ Desarrollar un aplicativo web robusto y eficiente que permita la gestión integr
 La gestión de información en entornos médicos suele ser compleja y crucial para la eficiencia del servicio. La falta de una plataforma integrada puede llevar a errores en los registros, dificultades en la ubicación de datos y problemas en la asignación de citas médicas. Este proyecto aborda estas problemáticas al ofrecer un sistema centralizado donde la información de pacientes, doctores y citas se captura de manera precisa, se almacena de forma segura en una base de datos y se presenta de manera clara y organizada en páginas web, facilitando así la gestión integral del sistema de atención médica.
 ```
 ### 1. Clonar el repositorio:
-1. Crea una carpeta en tu escritorio o en tu lugar de trabajo.
-2. Ingresar a la carpeta creada.
-3.  Abrir Git Bash.
-4.  Usar los siguientes comandos:
-- Si estas usando Vistual estudio code:
++ Crea una carpeta en tu escritorio o en tu lugar de trabajo.
+  + Ingresar a la carpeta creada.
+    + Abrir Git Bash.
+      + Usar los siguientes comandos:
+        
+## Si estas usando Vistual estudio code:
  ```
 git init
 git clone https://github.com/RaulAJaimes/java-citasmedicas-springboot.git
 code .
 ```
-- Si usas Netbeans:
+## Si usas Netbeans:
  ```
 git init
 git clone https://github.com/RaulAJaimes/java-citasmedicas-springboot.git
 ```
-y luego usa este comando:
+### y luego usa este comando:
 ```
 netbeans /Users/tuUsuario/Proyectos/MiProyecto
 ```
-Recuerda que es la ruta donde esta la carpeta de tu proyecto ejemplo:
+#### Recuerda que es la ruta donde esta la carpeta de tu proyecto ejemplo:
 Esta es la ruta de mi proyecto:
 ```
 C:\Users\Pepito\Desktop\java-citasmedicas-springboot
 ```
 En el disco loca **C** esta mi proyeco y esta es la ruta para llegar a el. _**Abriendo las siguientes carpetas**_:
+
 - Users.
   - Pepito (Mi usuario).
     - Desktop (escritorio)
@@ -53,7 +55,7 @@ netbeans /Users/Pepito/Desktop/java-citasmedicas-springboot
 ```
 Esto permitira abrir Netbeans y cargar el proyecto.
 
-### 2. Instalar las dependencias con Maven: ##
+# 2. Instalar las dependencias con Maven: ##
 
 - El proyecto usa como Gestor de Dependencias: **Maven**, por tanto, encontrarás un archivo pom.xml.
 - Abre una terminal en este directorio y ejecuta el siguiente comando:
@@ -62,7 +64,7 @@ mvn clean install
 ```
 Este comando limpiará el proyecto **(_clean_)** y luego descargará las dependencias actualizadas y las construirá **(_install_)**.
 
-### _*2.1 Si  quieres actualizar dependencias:*_
+## _*2.1 Si  quieres actualizar dependencias:*_
 Utiliza el siguiente comando para actualizar las dependencias:
 ```
 mvn clean install -U
@@ -144,6 +146,7 @@ Para verificar que la aplicación está utilizando el puerto correcto:
 ## 3. Configurar y Ejecutar el Proyecto
 
 3.a. Abre el proyecto clonado en tu IDE preferido.
+
 3.b. La versión mostrada en la terminal usando el comando:
 ```
 javac -version
